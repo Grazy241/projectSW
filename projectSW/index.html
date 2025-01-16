@@ -4,8 +4,148 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PeeledPotatoes</title>
+  <link rel="stylesheet" href="index-style.css">
 </head>
 <body>
-  
+  <header>
+    <a href="#" class="logo">PeeledPotatoes</a>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#movies">Movies</a></li>
+        <li><a href="#shows">Shows</a></li>
+        <li><a href="#anime">Anime</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="intro" id="home">
+    <h1>Welcome to PeeledPotatoes</h1>
+    <p>Hier vind je een heleboel (maandelijkse) recommendations van films, series en anime die ik zelf al heb gekeken en beoordeeld.</p>
+  </section>
+
+  <section class="movies" id="movies">
+    <h2>MOVIES</h2>
+  <div class="film">
+    <img src="..\projectSW\photos\15.jpg" alt="monkey" width="250" height="180">
+    <h3>Monkey Man</h3>
+    <a href="twindex.html#MonkeyMan">more...</a>
+  </div>
+  <div class="film">
+    <img src="..\projectSW\photos\14.jpg" alt="jumping from plane" title="" width="280" height="150">
+    <h3>Jumper</h3>
+    <a href="twindex.html#Jumper">more...</a>
+  </div>
+  <div class="film">
+    <img src="../projectSW/photos/17.jpg" alt="guy with hoodie" title="" width="250" height="180">
+    <h3>Jamesy Boy</h3>
+    <a href="twindex.html#JB">more...</a>
+  </div>
+  <div class="film">
+    <img src="../projectSW/photos/2.jpg" alt="two young girls" title="" width="250" height="180">
+    <h3>Thirteen</h3>
+    <a href="twindex.html#Thirteen">more...</a>
+  </div>
+  <div class="film">
+    <img src="../projectSW/photos/18.jpg" alt="girl with pink skirt" title="" width="250" height="180">
+    <h3>ANORA</h3>
+    <a href="twindex.html#ANORA">more...</a>
+  </div>
+  </section>
+<br>
+  <section class="Shows" id="shows">
+    <h2>TV SHOWS</h2>
+    <div class="show">
+      <img src="../projectSW/photos/11.jpg" alt="big family" title="" width="250" height="180">
+      <h3>Shameless</h3>
+      <a href="twindex.html#Shameless">more...</a>
+    </div>
+    <div class="show">
+      <img src="../projectSW/photos/1.jpg" alt="viking duel" title="" width="250" height="180">
+      <h3>Vikings</h3>
+      <a href="twindex.html#Vikings">more...</a>
+    </div>
+    <div class="show">
+      <img src="../projectSW/photos/9.jpg" alt="moon" title="" width="250" height="180">
+      <h3>Teen Wolf</h3>
+      <a href="twindex.html#TW">more...</a>
+    </div>
+    <div class="show">
+      <img src="../projectSW/photos/10.jpg" alt="snowy highway" title="" width="250" height="180">
+      <h3>Snowfall</h3>
+      <a href="twindex.html#Snowfall">more...</a>
+    </div>
+    <div class="show">
+      <img src="../projectSW/photos/6.jpg" alt="cuffed hands" title="" width="250" height="180">
+      <h3>Top Boy</h3>
+      <a href="twindex.html#TopBoy">more...</a>
+    </div>
+    </section>
+<br>
+    <section class="Animes" id="anime">
+      <h2>ANIME</h2>
+      <div class="anime">
+        <img src="../projectSW/photos/16.jpg" alt="Tengen Uzui" title="" width="250" height="180">
+        <h3>Kimetsu no yaiba(Demon Slayer)</h3>
+        <a href="twindex.html#DemonSlayer">more...</a>
+      </div>
+      <div class="anime">
+        <img src="../projectSW/photos/3.jpg" alt="mountain range with empty land" title="" width="250" height="180">
+        <h3>Dr. Stone</h3>
+        <a href="twindex.html#DrStone">more...</a>
+      </div>
+      <div class="anime">
+        <img src="../projectSW/photos/7.jpg" alt="tokyo with a sad undertone" title="" width="250" height="180">
+        <h3>Tokyo Ghoul</h3>
+        <a href="twindex.html#TG">more...</a>
+      </div>
+      <div class="anime">
+        <img src="../projectSW/photos/4.jpg" alt="tokyo illuminated" title="" width="250" height="180">
+        <h3>Tokyo Revengers</h3>
+        <a href="twindex.html#TokyoRev">more...</a>
+      </div>
+      <div class="anime">
+        <img src="../projectSW/photos/19.jpg" alt="bored giant" title="" width="250" height="180">
+        <h3>AOT(attack on titans)</h3>
+        <a href="twindex.html#AOT">more...</a>
+      </div>
+      </section>
+        <br>
+        <hr>
+        <section class="Comments" id="comments">
+          <div class="comment-form">
+            <h2>Comments</h2>
+            <form>
+              <label for="username">uw naam</label>
+              <input type="text" id="username" name="username" placeholder="voer uw naam in">
+
+              <label for="comment">uw comment</label>
+              <textarea id="comment" name="comment" rows="5" placeholder="schrijf hier je comments..."></textarea>
+
+              <button type="submit">submit comment</button>
+            </form>
+          </div>
+          <div class="comment-lijst">
+            <h3>alle comments</h3>
+            <ul>
+              <li>...</li>
+              <li>...</li>
+              <li>...</li>
+            </ul>
+          </div>
+        </section>
+
+
+        <hr>
+        <footer id="contact">
+          <p>&copy; 2025 PeeledPotatoes. <a href="https://www.instagram.com/ssup_grazyy?igsh=MW9zOTltaTVzYmMzeg==">By Grazy</a>
+          <br>
+          <a href="#">Back to top</a></p>
+          <hr>
+          <a href="../projectSW/admin/backend.html">Edit</a>
+        </footer>
+
+
 </body>
 </html>

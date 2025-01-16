@@ -4,14 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin Panel</title>
+  <link rel="stylesheet" href="admin-style.css">
 </head>
 <body>
-  <!--Header-->
-  <header>
-
+  <header id="#top">
+    <h1>Admin Dashboard</h1>
+    <nav>
+      <a href="#top">Dashboard</a>
+      <a href="#beheer">Beheer Content</a>
+      <a href="#logout">Logout</a>
+    </nav>
   </header>
-  <!--Login Screen-->
-  <section class="login">
+ 
+  <section class="box">
     <div class="login-form">
       <h2>Admin Login</h2>
       <form>
@@ -26,8 +31,8 @@
     </div>
   </section>
 
-  <!--Movie Overview-->
-  <section class="Overzicht">
+  
+  <section class="box" id="beheer">
     <h2>Beheer Films</h2>
     <div class="search-bar">
       <input type="text" placeholder="Zoek movies...">
@@ -89,29 +94,11 @@
             <button>Delete</button>
           </td>
         </tr>
-        <tr>
-          <td>6</td>
-          <td>(titel)</td>
-          <td>(genre)</td>
-          <td>
-            <button>Edit</button>
-            <button>Delete</button>
-          </td>
-        </tr>
-        <tr>
-          <td>7</td>
-          <td>(titel)</td>
-          <td>(genre)</td>
-          <td>
-            <button>Edit</button>
-            <button>Delete</button>
-          </td>
-        </tr>
       </tbody>
     </table>
   </section>
-  <!--Edit Movie-->
-  <section class="Edit">
+  
+  <section class="box">
     <div class="film-form">
       <h2>Voeg/Edit Films</h2>
       <form>
@@ -132,5 +119,13 @@
       </form>
     </div>
   </section>
+
+  <section class="box" id="logout">
+    <div class="logout-btn">
+      <h2>Log out</h2>
+      <button type="submit">Log out</button>
+    </div>
+  </section>
+  <a href="index.html">done</a>
 </body>
 </html>
