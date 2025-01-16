@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel</title>
+</head>
+<body>
+  <!--Header-->
+  <header>
+
+  </header>
+  <!--Login Screen-->
+  <section class="login">
+    <div class="login-form">
+      <h2>Admin Login</h2>
+      <form>
+        <label for="username">Gebruikersnaam</label>
+        <input type="text" id="username" placeholder="Voer je gebruikersnaam in">
+
+        <label for="password">Wachtwoord</label>
+        <input type="text" id="password" placeholder="Voer je wachtwoord in">
+
+        <button type="submit">Log in</button>
+      </form>
+    </div>
+  </section>
+
+  <!--Movie Overview-->
+  <section class="Overzicht">
+    <h2>Beheer Films</h2>
+    <div class="search-bar">
+      <input type="text" placeholder="Zoek movies...">
+      <button>Zoek</button>
+    </div>
+
+    <table class="film-tabel">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Titel</th>
+          <th>Genre</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>(titel)</td>
+          <td>(genre)</td>
+          <td>
+            <button>Edit</button>
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>(titel)</td>
+          <td>(genre)</td>
+          <td>
+            <button>Edit</button>
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>(titel)</td>
+          <td>(genre)</td>
+          <td>
+            <button>Edit</button>
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>(titel)</td>
+          <td>(genre)</td>
+          <td>
+            <button>Edit</button>
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>(titel)</td>
+          <td>(genre)</td>
+          <td>
+            <button>Edit</button>
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>(titel)</td>
+          <td>(genre)</td>
+          <td>
+            <button>Edit</button>
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>(titel)</td>
+          <td>(genre)</td>
+          <td>
+            <button>Edit</button>
+            <button>Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <!--Edit Movie-->
+  <section class="Edit">
+    <div class="film-form">
+      <h2>Voeg/Edit Films</h2>
+      <form>
+        <label for="title">Titel</label>
+        <input type="text" id="title" name="title" placeholder="Voer titel in">
+
+        <label for="genre">Genre</label>
+        <select name="genre" id="genre">
+          <option value="">Select Genre</option>
+          <option value="Action">Action</option>
+          <option value="Drama">Drama</option>
+          <option value="Comedy">Comedy</option>
+          <option value="Sci-Fi">Sci-Fi</option>
+          <option value="Anime">Anime</option>
+        </select>
+
+        <button type="submit">Save</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
